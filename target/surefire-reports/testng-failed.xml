@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Project Dashboard Suite]">
+  <test name="DashboardPageTest">
+    <classes>
+      <class name="com.dot.testing.qa.prodjectDashboard.DashboardPageTest"/>
+    </classes>
+  </test> <!-- DashboardPageTest -->
+</suite> <!-- Failed suite [Test Project Dashboard Suite] -->
