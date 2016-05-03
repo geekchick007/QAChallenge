@@ -5,16 +5,20 @@ import org.openqa.selenium.WebDriver;
 
 public class PageObjects {
 	
-By stats = By.id("recordStats");
-By record = By.cssSelector(".col-sm-3.projCard.ng-scope");
-By moreInfo = By.id("moreInfoButton");
-By recordFields = By.className("projectFields");
-By search = By.id("input_0");	
+private By stats; 
+private By record;
+private By moreInfo; 
+private By recordFields; 
+private By search; 	
 
 	public PageObjects() {
-		// TODO Auto-generated constructor stub
-	}
+		stats = By.id("recordStats");
+		record = By.cssSelector(".col-sm-3.projCard.ng-scope");
+		moreInfo = By.id("moreInfoButton");
+		recordFields = By.className("projectFields");
+		search = By.id("input_0");	
 
+	}
 	public String getPageTitle(WebDriver driver){
 		String actualTitle = driver.getTitle().toLowerCase();
 		return actualTitle;
